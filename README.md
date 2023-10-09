@@ -77,7 +77,7 @@ Estas funciones permiten a los usuarios verificar la conectividad de sitios web,
 
 ## Licencia 📜
 
-Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE.md](LICENSE.md) para más detalles.
+Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE.md](LICENSE) para más detalles.
 
 ---
 
