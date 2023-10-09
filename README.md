@@ -1,4 +1,4 @@
-# Comprobador de Conectividad de Sitios Web 🌐
+# Comprobador de Conectividad de Sitios Web {style="color: #FF5733"} 🌐
 
 ¡Bienvenido a la página del proyecto de Comprobador de Conectividad de Sitios Web! Este programa te permite verificar la conectividad de un sitio web y administrar tus sitios favoritos.
 
