@@ -6,19 +6,8 @@
 
 1. **Pantalla de Inicio:**
 
-   ![Pantalla de Inicio](Inicio.png)
+   ![Pantalla de Inicio](conectividadweb.png)
 
-2. **Ejemplo de URL:**
-
-   ![Ejemplo de URL](Url.png)
-
-3. **Conectividad:**
-
-   ![Conectividad](Conectividad.png)
-
-4. **Agregar a Favoritos:**
-
-   ![Agregar a Favoritos](Favoritos.png)
 
 ## Descripción del Proyecto 📝
 
