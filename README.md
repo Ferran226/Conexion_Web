@@ -2,9 +2,8 @@
 
 ¡Bienvenido a la página del proyecto de Comprobador de Conectividad de Sitios Web! Este programa te permite verificar la conectividad de un sitio web y administrar tus sitios favoritos.
 
-## Capturas de Pantalla 📷
+## Capturas de Pantalla del Funcionamiento 📷
 
-1. **Pantalla de Inicio:**
 
    ![Pantalla de Inicio](conectividadweb.png)
 
