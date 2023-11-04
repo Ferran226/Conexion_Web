@@ -1,4 +1,87 @@
-# Comprobador de Conectividad de Sitios Web 🌐
+# 🇺🇸 Website Connectivity Checker 🌐
+
+Welcome to the project page of the Website Connectivity Checker! This program allows you to verify the connectivity of a website and manage your favorite sites.
+
+## Screenshots 📷
+
+   ![Home Screen](conectividadweb.png)
+
+## Project Description 📝
+
+This project is developed in Python using the `tkinter` library to create a simple graphical interface. It enables users to perform the following actions:
+
+- Enter a URL and check its connectivity.
+- Add websites to their favorites list.
+- Remove websites from their favorites list.
+- Load and save the favorites list to a JSON file.
+
+## How to Use 🚀
+
+1. Clone or download this repository to your local machine.
+2. Run the `main.py` file to start the application.
+
+## Requirements 🛠️
+
+Ensure you have Python 3 installed on your system. Additionally, this project uses the following external libraries:
+
+- `tkinter` (included in Python's standard library)
+
+## How Web Checking Works 🌐
+
+The Website Connectivity Checker uses Python's `urllib` library to check the connectivity of a website entered by the user. Here's how it works:
+
+1. **Enter a URL:** The user enters a URL in the text box and clicks the "Check Connectivity" button 📩.
+
+2. **Validate the URL:** The `is_valid_url(url)` function 👷‍♀️ checks if the entered URL has the correct format using a regular expression.
+
+3. **Connect to the URL:** If the URL is valid, the program attempts to connect to the URL using `urlopen(url)` 🌐.
+
+4. **Check the Status Code:** The response's status code is verified. If the code is 200, the site is considered online and functioning ✅. If the code is not 200, a message with the status code is displayed ❌.
+
+5. **Show Results:** The check result is displayed on the graphical interface 🖥️, indicating whether the site is online, and if not, it provides information about the connection error 🚫.
+
+## Key Program Functions 🛠️
+
+The program consists of several key functions that enable specific actions:
+
+- `is_valid_url(url)`: Validates if a URL has the correct format ✅.
+- `check_connectivity()`: Performs the connectivity check of the entered URL 🌐.
+- `add_to_favorites()`: Adds a URL to the favorites list 📌.
+- `remove_from_favorites()`: Removes a URL from the favorites list 🗑️.
+- `save_favorites()`: Saves the favorites list to a JSON file 💾.
+- `load_favorites()`: Loads the favorites list from a JSON file 📂.
+
+These functions allow users to check website connectivity, manage their favorites list, and keep their information saved for future sessions 🤗.
+
+## Contributions 🤝
+
+Contributions are welcome! If you wish to contribute to this project, please:
+
+1. Fork the repository.
+2. Create a new branch for your changes (`git checkout -b feature/new-feature`).
+3. Make your modifications and ensure the changes are functional.
+4. Commit your changes (`git commit -m 'Added new feature'`).
+5. Push your changes to your GitHub repository (`git push origin feature/new-feature`).
+6. Create a pull request to this main repository.
+
+## Author 👤
+
+**Ferran226** 🚀
+
+- GitHub: [Ferran226](https://github.com/Ferran226)
+- Email: [ferrancolllopez@gmail.com](mailto:ferrancolllopez@gmail.com)
+
+## License 📜
+
+This project is under the MIT License - see the [LICENSE.md](LICENSE) file for more details.
+
+
+
+Thank you for using the Website Connectivity Checker! If you have any questions or suggestions, don't hesitate to [contact us](mailto:ferrancolllopez@gmail.com) 📧.
+
+---
+
+# 🇪🇸 Comprobador de Conectividad de Sitios Web 🌐
 
 ¡Bienvenido a la página del proyecto de Comprobador de Conectividad de Sitios Web! Este programa te permite verificar la conectividad de un sitio web y administrar tus sitios favoritos.
 
